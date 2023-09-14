@@ -1,0 +1,18 @@
+.link {
+  font-size: 20px;
+  transition: transform 150ms ease-in-out, color 150ms ease-in-out;
+}
+
+.link:hover {
+  color: var(--color-blue);
+}
+
+.link:active {
+  color: var(--color-blue);
+  transform: scale(0.9);
+}
+
+.active {
+  composes: link;
+  color: var(--color-blue);
+}

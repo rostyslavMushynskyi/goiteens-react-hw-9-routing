@@ -1,0 +1,29 @@
+:root {
+  --color-blue: #1159de;
+  --color-light: #fff;
+  --color-light-rgb: 255, 255, 255;
+  --color-dark: #000000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  background-color: var(--color-dark);
+  color: var(--color-light);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+  max-width: 1280px;
+}

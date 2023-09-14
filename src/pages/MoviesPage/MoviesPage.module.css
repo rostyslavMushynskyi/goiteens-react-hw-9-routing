@@ -1,0 +1,20 @@
+.home {
+  padding: 20px 0;
+}
+
+.home > *:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.title:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.text {
+  color: rgba(var(--color-light-rgb), 0.8);
+}

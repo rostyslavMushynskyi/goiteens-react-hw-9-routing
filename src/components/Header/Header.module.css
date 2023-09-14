@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  gap: 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--color-blue);
+  transition: transform 150ms ease-in-out, color 150ms ease-in-out;
+}
+
+.logo:hover {
+  color: var(--color-yellow-hover);
+}
+.logo:active {
+  transform: scale(0.9);
+}
+
+.nav {
+  display: flex;
+  column-gap: 40px;
+  row-gap: 15px;
+  flex-wrap: wrap;
+}
